@@ -1,0 +1,72 @@
+Relative Defense Formula (HTP)
+
+A simple universal defense formula for RPGs.
+
+---
+
+Formula
+
+DR = Defense / Enemy dmg (max 80% DR, can increase through passive/trait/class/...)
+
+Or
+
+Damage taken = Enemy dmg × (1 - Defense/Enemy dmg)
+Clamp DR between 0% and 80%.
+(No minimum DR. Only maximum DR.)
+
+---
+
+Ex:
+
+  Early Game Example
+- Mob ATK: 50  
+- Boss ATK: 80  
+- Player DEF: 20  
+
+  Scene 1 - Normal Attack (100% ATK multiplier):  
+- Mob Normal: deal 50 dmg → DR = 20 / 50 = 40% → Dmg taken = 30
+- Boss Normal: deal 80 dmg → DR = 20 / 80 = 25% → Dmg taken = 60 
+
+ Scene 2 - Ultimate Skill (200% ATK multiplier):  
+- Mob Ultimate: deal 100 dmg → DR = 20 / 100 = 20% → Dmg taken = 80 
+- Boss Ultimate: deal 160 dmg → DR = 20 / 160 = 12.5% → Dmg taken = 140 
+
+  Mid Game Example
+- Mob ATK: 500  
+- Boss ATK: 800  
+- Player DEF: 300  
+
+  Scene 1 - Normal Attack (100% ATK multiplier):  
+- Mob Normal: deal 500 dmg → DR = 300 / 500 = 60% → Dmg taken = 200  
+- Boss Normal: deal 800 dmg → DR = 300 / 800 = 37.5% → Dmg taken = 500 
+
+  Scene 2 - Ultimate Skill (200% ATK multiplier):  
+- Mob Ultimate: deal 1000 dmg → DR = 300 / 1000 = 30% → Dmg taken = 700  
+- Boss Ultimate: deal 1600 dmg → DR = 300 / 1600 = 18.75% → Dmg taken = 1296 
+
+  Late Game Example
+- Mob ATK: 5000  
+- Boss ATK: 8000  
+- Player DEF: 4000  
+
+  Scene 1 - Normal Attack (100% ATK multiplier):  
+- Mob Normal: deal 5000 dmg → DR = 4000 / 5000 =  80% → Dmg taken = 1000  
+- Boss Normal: deal 8000 dmg → DR = 4000 / 8000 = 50% → Dmg taken = 4000  
+
+  Scene 2 - Ultimate Skill (200% ATK multiplier):  
+- Mob Ultimate: deal 10000 dmg → DR = 4000 / 10000 = 40% → Dmg taken = 6000 
+- Boss Ultimate: deal 16000 dmg → DR = 4000 / 16000 = 25% → Dmg taken = 12000 
+
+Notes
+
+Defense scales relatively to Enemy dmg.
+Fixes the common RPG problem where defense becomes useless late-game.
+Works for RPG / ARPG / MMO / MOBA / Shooter (armor) / Strategy.
+Add armor as a second layer if needed.
+
+
+Author
+
+HTP
+
+Public domain. Use freely.
