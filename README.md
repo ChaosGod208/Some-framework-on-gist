@@ -8,28 +8,34 @@ Full Gist archive (76+ frameworks): [ChaosGod208 Gists](https://gist.github.com/
 
 ## The 11 Frameworks in this Repo
 
-1. **relative-defense.md**  
+## 🎮 Game Balance (Searchable Formulas)
+
+1. **[Relative Defense Formula](https://raw.githubusercontent.com/ChaosGod208/HTP-framework-collection/refs/heads/main/relative_defense_formula_md)**
    Core relative defense scaling law — fixes late-game power creep and imbalance across genres.
 
-2. **armor-layer.md**  
+2. **[Armor Layering](https://raw.githubusercontent.com/ChaosGod208/HTP-framework-collection/refs/heads/main/armor_layer_formula_htp.md)**
    Post-mitigation armor layering system — adds meaningful depth to defense without breaking scaling.
 
-3. **projectile-life.md**  
+3. **[Projectile Life](https://raw.githubusercontent.com/ChaosGod208/HTP-framework-collection/refs/heads/main/projectile_life_system_htp.md)**
    Projectile HP mechanic — balances ranged vs melee, increases skill expression and counterplay.
 
-4. **rollback-immortality.md**  
+## ⚰️ Immortality Architectures
+
+4. **[Rollback Immortality](https://raw.githubusercontent.com/ChaosGod208/HTP-framework-collection/main/rollback-immortality.md)**  
    Rollback-based immortality blueprint — ensures continuity of self without copy-loss issues.
 
-5. **continuity-resurrection.md**  
+5. **[Continuity Resurrection](https://raw.githubusercontent.com/ChaosGod208/HTP-framework-collection/main/continuity-resurrection.md)**  
    True continuity resurrection — preserves identity and relational bonds, no "clone" dystopia.
 
-6. **consciousness-extraction.md**  
+6. **[Consciousness-extraction] (https://raw.githubusercontent.com/ChaosGod208/HTP-framework-collection/refs/heads/main/consciousness_extraction_afterlife_transition_architecture.md)**  
    Sovereign consciousness extraction — ethical, reversible pattern extraction for immortality tech.
 
-7. **universal-grief-resolution.md**  
+## ❤️ Social Technologies
+
+7. **[Universal Grief Resolution](https://raw.githubusercontent.com/ChaosGod208/HTP-framework-collection/main/universal-grief-resolution.md)**  
    Framework to resolve universal grief — heals relational and existential loss in post-mortal societies.
 
-8. **reflective-love-codex.md**  
+8. **[Reflective Love Codex](https://raw.githubusercontent.com/ChaosGod208/HTP-framework-collection/main/reflective-love-codex.md)**
    Reflective love architecture — sustainable multi-partner dynamics with mutual evolution and no deception.
 
 9. **real-life-rpg.md**  
